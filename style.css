@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika+Negative:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+html body{
+    width: 100%;
+    height: 100%;
+}
+#minicircle{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  z-index: 9999;
+  border-radius: 50%;
+  background-color: #fff;
+  transition:all cubic-bezier(0.19, 1, 0.22, 1)0.8s;
+}
+#main{
+    width: 100%;
+    background-color: black;
+}
+#hero{
+  position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.bounding{
+  width: fit-content;
+  overflow: hidden;
+}
+.bounding .boundingelem{
+  transform: translateY(100%);
+}
+
+#nav{
+    width: 100%;
+    color: white;
+    align-items: center;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-size: 1.3vw;
+}
+#heading{
+    margin-top: 90px;
+}
+#heading h1{
+    font-size: 9vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1;
+    opacity: 0.6;
+    margin-left: 390px ;
+
+}
+#heading #secondh1{
+    margin-left: 530px;
+ }
+ .blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+   
+ }
+ .blocktext h5{
+    text-align: right !important;
+    font-size: 1vw;
+    text-transform: uppercase;
+    opacity: .8;
+ }
+ #heading2{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+    margin-top: 100px;
+    padding-right: 50px;
+   ;
+ }
+ #heading2 h5{
+    font-size: 1vw;
+    margin-top: .4vw;
+    text-align: right;
+    opacity: 0.8;
+    font-family: 'Signika Negative', sans-serif;
+    text-transform: uppercase;
+ }
+ #herofooter{
+    padding: 0 2vw;
+    font-size: 1vw;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 100%;
+ }
+ #herofooter a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+ }
+ #herofooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: gray;
+ }
+ #herofooter #iconset{
+    display: flex;
+    gap: 5px;
+ }
+ #second{
+    padding-right: 10vw;
+    padding-top: 200px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+ }
+ #second h5{
+    font-size: 1vw;
+    opacity: .8;
+ }
+ .elem{
+   position: relative;
+    width: 100%;
+    border-top: 1px solid #888;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    color: whitesmoke;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .elem h1{
+    text-transform: uppercase;
+    font-size: 7vw;
+    opacity: .8;
+ }
+  .elemlast{
+    border-bottom: 1px solid #888;
+ }
+ .elem img{
+  opacity: 0;
+  pointer-events: none;
+  height: 140%;
+  z-index: 999;
+  position: absolute;
+  transform: translate(-50%, -50%);
+ }
+ #about{
+   display: flex;
+   align-items: center;
+   gap: 50px;
+   width: 100%;
+   background-color: black;
+   padding: 10vw 10vw;
+   padding-left: 40vw;
+   color: #fff;
+ }
+ #textabout{
+   width: 25rem;
+ }
+ #textabout h5{
+   text-transform: uppercase;
+   opacity: .8;
+   font-size: 1.2vw;
+   margin-bottom: 10px;
+ }
+ #textabout p{
+   line-height: 1.7;
+   margin-bottom: 30px;
+ }
+ #textabout a{
+   padding: 12px 22px;
+   border: 1px solid #fff;
+   border-radius: 100px;
+   text-decoration:none ;
+   color: #fff;
+ }
+ #about img{
+   width: 13vw;
+   border-radius: 10%;
+ }
+ #subscribe{
+   color: #fff;
+   padding: 20px 30px;
+   background-color: black;
+   padding-bottom: 8vw;
+ }
+ #subscribe h5{
+   opacity: .8;
+   text-transform: uppercase;
+   font-size: 1vw;
+   font-family: 'Signika Negative', sans-serif;
+ }
+ #subscribe a{
+   text-decoration: none;
+   color: #fff;
+   opacity: .8;
+   font-size: .9vw;
+   font-family: 'Signika Negative', sans-serif;
+ }
+ #subscribe h3{
+   margin-top: 10px;
+ }
+ #footer{
+   background-color:black;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding:20px 30px;
+   opacity: .8;
+   padding-bottom: 4vw;
+}
+#footerleft{
+   display: flex;
+   font-size: 1vw;
+   gap: 20px;
+   padding-top: 34px;
+ }
+ #footerright {
+  display: flex;
+  gap: 20px;
+ }
+ #footerright a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1vw;
+  padding-top: 34px;
+ }
